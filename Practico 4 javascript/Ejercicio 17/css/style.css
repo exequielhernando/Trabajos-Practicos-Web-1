@@ -25,6 +25,7 @@ ul li a:hover{
 
 }
 .boton{
+  vertical-align: top;
   display: inline-block;
   margin: 0 auto;
   padding: 5px;
@@ -35,7 +36,6 @@ ul li a:hover{
   font-style: italic;
 }
 
-#oculto1, #oculto2, #oculto3{
+.contenido-oculto>.contenido{
   display:none;
-
 }
