@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul li a{
+  text-decoration: none;
+  text-decoration-color: blue;
+}
+
+ul li a:focus{
+  color: black;
+  background-color: pink;
+}
+ul li a:active{
+  font-size: 1.5em;
+}
+ul li a:hover{
+  background-color: red;
+}
+.botonera{
+  margin: 0 auto;
+  border: 5px solid aqua;
+  width: 80%;
+  position: left;
+
+}
+.boton{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 5px;
+  border: 5px;
+  width: 20%;
+  text-align: center;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#oculto1, #oculto2, #oculto3{
+  display:none;
+
+}

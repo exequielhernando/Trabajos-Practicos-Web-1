@@ -1,0 +1,13 @@
+.container{
+  text-align:center;
+  padding: 3em;
+  width: 90%;
+  margin: 0 auto;
+}
+button{
+  width: 40%;
+  padding: 2em;
+}
+#boton2,#boton3,#boton4{
+  display:none;
+}

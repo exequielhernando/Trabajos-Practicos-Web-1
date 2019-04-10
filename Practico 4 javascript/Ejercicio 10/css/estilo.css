@@ -1,0 +1,17 @@
+.container{
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid black;
+}
+.casilleros,.resultadoParcial,.resultado{
+  padding: 1em;
+}
+button{
+  padding: 1.7em;
+}
+span{
+  
+  padding: 0.4em;
+  border: solid 1px black;
+}

@@ -1,0 +1,39 @@
+header{
+  background-color: pink;
+  text-align: center;
+}
+.bloque1{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.float1{
+  float: left;
+  width: 45%;
+  margin: 0 auto;
+  border: solid black;
+}
+.float2{
+  float: left;
+  width: 45%;
+  margin: 0 auto;
+  border: solid black;
+}
+.bloque2{
+  clear: both;
+  text-align: center;
+  border: solid black;
+}
+.inline1{
+  display: inline;
+}
+.inline2{
+  display: inline;
+}
+.bloque3{
+  width: 650px;
+  height: 150px;
+  margin: 0 auto;
+  border: 1em solid red;
+  overflow: auto;
+  }

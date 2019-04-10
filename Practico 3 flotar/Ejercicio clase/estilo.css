@@ -1,0 +1,67 @@
+.encabezado{
+  text-align:left;
+  background-color: #CCCCCC;
+
+  margin: 0;
+  padding: 0;
+  border: 0 solid black;
+  width: 10%;
+  height: 100px;
+  display: inline-block;
+}
+.botonera{
+  background-color: #CCCCCC;
+
+  margin: 0;
+  padding: 0;
+  border: 0 solid black;
+  width: 80%;
+  display: inline-block;
+}
+.boton{
+  background-color: darkgreen;
+  display: inline-block;
+}
+.principal{
+  position: relative;
+  border: 2px solid black;
+}
+.limpiar{
+  clear: both;
+}
+.izquierda{
+  text-align: center;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: 2px solid black;
+  background-color:#666666;
+  color:white;
+  width: 40%;
+  float: left;
+}
+.derecha{
+  text-align: center;
+  border: 2px solid black;
+  background-color:#666666;
+  color:white;
+  width: 40%;
+  float: left;
+}
+.publicidades{
+  text-align: center;
+  border: 2px solid black;
+  float: right;
+  width: 15%;
+}
+.publicidad{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.pie{
+  clear: both;
+  background-color: #00CCFF;
+  height: 50px;
+}

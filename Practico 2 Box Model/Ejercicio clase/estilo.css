@@ -1,0 +1,45 @@
+.encabezado{
+  text-align:left;
+  background-color: #CCCCCC;
+
+  margin: 0;
+  padding: 0;
+  border: 0 solid black;
+  width: 10%;
+  height: 100px;
+  display: inline-block;
+}
+.botonera{
+  background-color: #CCCCCC;
+
+  margin: 0;
+  padding: 0;
+  border: 0 solid black;
+  width: 60%;
+  display: inline-block;
+}
+.boton{
+  background-color: darkgreen;
+  display: inline-block;
+}
+.cuerpo{
+  background-color:#666666;
+  color:white;
+  width: 80%;
+  float: left;
+}
+.publicidades{
+  float: right;
+  width: 20%;
+}
+.publicidad{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.pie{
+  clear: both;
+  background-color: #00CCFF;
+  height: 50px;
+}

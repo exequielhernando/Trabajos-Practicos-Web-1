@@ -1,0 +1,50 @@
+body{
+  background-color: lightblue;
+}
+.titulo1{
+  border-bottom: 2px solid grey;
+  font-style: italic;
+  font-size: 1em;
+  width: 90%;
+  margin: 0 auto;
+}
+.titulo2{
+  border-bottom: 2px solid grey;
+  font-style: italic;
+  font-size: 1em;
+  margin: 0 auto;
+}
+.reseña{
+  width: 90%;
+  margin: 0 auto;
+}
+.parrafoReseña{
+  width: 65%;
+  float: left;
+}
+.fotoReseña{
+  width: 33%;
+  float: right;
+}
+.indice{
+  width: 90%;
+  margin: 0 auto;
+}
+.parrafoPrincipal{
+  clear: both;
+  width: 90%;
+  margin: 0 auto;
+}
+p{
+  font-style: oblique;
+  font-size: 110%;
+}
+.destacado{
+  font-style: italic;
+  font-size: 90%;
+}
+thead{
+  background-color: lightgreen;
+  line-height: 1.4em;
+  text-align: center;
+}

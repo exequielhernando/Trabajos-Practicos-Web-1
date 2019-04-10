@@ -1,0 +1,48 @@
+h1{
+  text-align: center;
+  color: burlywood;
+  font-size: 60px;
+  background-color: black;
+}
+h2{
+  text-align: left;
+}
+p{
+  text-align: justify;
+  color: yellow;
+  font-family: cursive;
+}
+.destacado{
+  color: red;
+}
+body{
+  background-color: rgb(55,0,15);
+}
+ul{
+  list-style-type: circle;
+}
+.lista_cuadrado{
+  list-style-type: square;
+}
+ol{
+  list-style-type: lower-alpha;
+}
+.lista_imagen{
+  list-style-image: url('icono.gif');
+  list-style-position: inside;
+}
+.mayuscula{
+  text-transform: uppercase;
+}
+.bloque1{
+  width: 600px;
+  height: 250px;
+  background-color: lightblue;
+  padding:20px;
+
+  border-top: 40px ridge blue;
+  border-right: 10px dashed red;
+  border-bottom: 25px groove pink;
+  border-left: dotted black;
+
+  }

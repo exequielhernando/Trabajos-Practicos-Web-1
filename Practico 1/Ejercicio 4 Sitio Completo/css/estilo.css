@@ -1,0 +1,58 @@
+.navegador{
+  border-bottom: 5px solid green;
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+li{
+  display: inline-block;
+  color: white;
+  margin: 0;
+  padding: 2% 5%;
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navegador li:hover{
+  background-color: grey;
+}
+a{
+  text-decoration: none;
+}
+.navegador a:visited{
+  color: white;
+}
+.novedades{
+  float: left;
+  width: 75%;
+}
+.novedades h2,h3,.publicidades h2,h3{
+  text-align: center;
+}
+.novedad a:visited{
+  color: inherit;
+}
+.noticia{
+  float: left;
+  width: 52%;
+  padding: 2%;
+  font-size: 150%;
+}
+.imagenNoticia{
+  float: left;
+  width: 40%;
+  padding: 2%;
+}
+.publicidades{
+  float: left;
+  text-align: center;
+  border: 2px solid grey;
+  position:  relative;
+  width: 24%;
+
+}
+.imagenPublicidad{
+  width: 14em;
+  padding: 2%;
+}

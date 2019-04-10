@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 10</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body onload="iniciarValores()">
+    <div class="container">
+      <h1>Calculadora</h1>
+      <div class="resultadoParcial">
+        <span id="resultadoParcial" ></span>
+      </div>
+      <div class="resultado">
+        <span id="resultadoFinal" ></span>
+      </div>
+      <div class="casilleros">
+        <button id="borrarPantalla" type="button" name="button">CE</button>
+        <button id="borrarTodo" type="button" name="button">C</button>
+        <button id="borrarNumero"type="button" name="button">◄</button>
+        <button id="division" type="button" name="button">/</button>
+      </div>
+      <div class="casilleros">
+        <button id="siete" type="button" name="button">7</button>
+        <button id="ocho" type="button" name="button">8</button>
+        <button id="nueve" type="button" name="button">9</button>
+        <button id="multiplicacion" type="button" name="button">*</button>
+      </div>
+      <div class="casilleros">
+        <button id="cuatro" type="button" name="button">4</button>
+        <button id="cinco" type="button" name="button">5</button>
+        <button id="seis" type="button" name="button">6</button>
+        <button id="resta" type="button" name="button">-</button>
+      </div>
+      <div class="casilleros">
+        <button id="uno" type="button" name="button">1</button>
+        <button id="dos" type="button" name="button">2</button>
+        <button id="tres" type="button" name="button">3</button>
+        <button id="suma" type="button" name="button">+</button>
+      </div>
+      <div class="casilleros">
+        <button id="separador" type="button" name="button">()</button>
+        <button id="cero" type="button" name="button">0</button>
+        <button id="coma" type="button" name="button">.</button>
+        <button id="igual" type="button" name="button" onclick="actualizarResultado()">=</button>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/main.js">
+
+    </script>
+  </body>
+</html>
